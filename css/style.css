@@ -67,6 +67,10 @@ body {
   margin-bottom: 1rem;
 }
 
+.about-icon{
+  color: var(--primary-color);
+}
+
 .portfolio-item {
   position: relative;
   overflow: hidden;
