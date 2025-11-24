@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Наши работы</title>
+    <title>Вход - Фотосалон "НАРА"</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link
       rel="stylesheet"
@@ -76,120 +76,48 @@
       </div>
     </nav>
 
-    <section id="portfolio" class="py-5 bg-light">
+    <section class="auth-section">
       <div class="container">
-        <div class="row mb-5">
-          <div class="col text-center">
-            <h2 class="section-title d-inline-block">Наши работы</h2>
-          </div>
-        </div>
-        <div class="row g-4">
+        <div class="row justify-content-center">
           <div class="col-md-6 col-lg-4">
-            <div class="portfolio-item">
-              <img
-                src="img/services/postery.jpg"
-                class="img-fluid w-100"
-                alt="Печать постеров"
-              />
-              <div class="portfolio-overlay">
-                <h5 class="text-white">Постеры и увеличения</h5>
+            <div class="card auth-card">
+              <div class="auth-header">
+                <h2 class="auth-title">Вход</h2>
+                <p class="auth-subtitle">Войдите в свой аккаунт</p>
               </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="portfolio-item">
-              <img
-                src="img/services/fotoknigi.jpg"
-                class="img-fluid w-100"
-                alt="Фотокниги"
-              />
-              <div class="portfolio-overlay">
-                <h5 class="text-white">Фотокниги</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="portfolio-item">
-              <img
-                src="img/services/suveniry.jpg"
-                class="img-fluid w-100"
-                alt="Фотосувениры"
-              />
-              <div class="portfolio-overlay">
-                <h5 class="text-white">Фотосувениры</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="portfolio-item">
-              <img
-                src="img/services/portret.jpg"
-                class="img-fluid w-100"
-                alt="Портретная фотосессия"
-              />
-              <div class="portfolio-overlay">
-                <h5 class="text-white">Портретная съемка</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="portfolio-item">
-              <img
-                src="img/services/svadba.jpg"
-                class="img-fluid w-100"
-                alt="Свадебная фотосессия"
-              />
-              <div class="portfolio-overlay">
-                <h5 class="text-white">Свадебная съемка</h5>
-              </div>
-            </div>
-          </div>
+              <div class="auth-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="ваш@email.com"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="password" class="form-label">Пароль</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="password"
+                      placeholder="Введите пароль"
+                      required
+                    />
+                  </div>
 
-          <div class="col-md-6 col-lg-4">
-            <div class="portfolio-item">
-              <img
-                src="img/services/kids.jpg"
-                class="img-fluid w-100"
-                alt="Семейная фотосессия"
-              />
-              <div class="portfolio-overlay">
-                <h5 class="text-white">Детская фотосъемка</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="portfolio-item">
-              <img
-                src="img/services/predmet.jpg"
-                class="img-fluid w-100"
-                alt="Детская фотосессия"
-              />
-              <div class="portfolio-overlay">
-                <h5 class="text-white">Предметная съемка</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="portfolio-item">
-              <img
-                src="img/services/korparat.jpg"
-                class="img-fluid w-100"
-                alt="Ивент фотосессия"
-              />
-              <div class="portfolio-overlay">
-                <h5 class="text-white">Корпоративная съемка</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="portfolio-item">
-              <img
-                src="img/services/retush.jpg"
-                class="img-fluid w-100"
-                alt="Фэшн фотосессия"
-              />
-              <div class="portfolio-overlay">
-                <h5 class="text-white">Ретушь и обработка</h5>
+                  <button type="submit" class="btn btn-auth w-100">
+                    Войти
+                  </button>
+                </form>
+
+                <div class="auth-footer">
+                  <p class="mb-0">
+                    Нет аккаунта? <a href="register.html">Зарегистрироваться</a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -197,6 +125,7 @@
       </div>
     </section>
 
+    <!-- Простой футер -->
     <footer class="footer">
       <div class="container">
         <div class="row g-4">
